@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-package windows_test
+package windows_mg_test
 
 import (
 	"fmt"
@@ -15,7 +15,7 @@ import (
 	"syscall"
 	"testing"
 
-	"golang.org/x/sys/windows"
+	"github.com/mjgrzybek/syswindows"
 )
 
 func TestWin32finddata(t *testing.T) {

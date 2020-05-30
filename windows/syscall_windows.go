@@ -4,7 +4,7 @@
 
 // Windows system calls.
 
-package windows
+package windows_mg
 
 import (
 	errorspkg "errors"
@@ -14,7 +14,7 @@ import (
 	"unicode/utf16"
 	"unsafe"
 
-	"golang.org/x/sys/internal/unsafeheader"
+	"github.com/mjgrzybek/sysinternal/unsafeheader"
 )
 
 type Handle uintptr

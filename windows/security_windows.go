@@ -2,13 +2,13 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-package windows
+package windows_mg
 
 import (
 	"syscall"
 	"unsafe"
 
-	"golang.org/x/sys/internal/unsafeheader"
+	"github.com/mjgrzybek/sysinternal/unsafeheader"
 )
 
 const (

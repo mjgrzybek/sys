@@ -7,7 +7,7 @@
 package svc
 
 import (
-	"golang.org/x/sys/windows"
+	"github.com/mjgrzybek/syswindows"
 )
 
 func allocSid(subAuth0 uint32) (*windows.SID, error) {

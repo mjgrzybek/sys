@@ -10,8 +10,8 @@ import (
 	"syscall"
 	"unsafe"
 
-	"golang.org/x/sys/windows"
-	"golang.org/x/sys/windows/svc"
+	"github.com/mjgrzybek/syswindows"
+	"github.com/mjgrzybek/syswindows/svc"
 )
 
 // TODO(brainman): Use EnumDependentServices to enumerate dependent services.

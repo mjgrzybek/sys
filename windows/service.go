@@ -4,7 +4,7 @@
 
 // +build windows
 
-package windows
+package windows_mg
 
 const (
 	SC_MANAGER_CONNECT            = 1

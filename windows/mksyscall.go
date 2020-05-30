@@ -4,6 +4,6 @@
 
 // +build generate
 
-package windows
+package windows_mg
 
-//go:generate go run golang.org/x/sys/windows/mkwinsyscall -output zsyscall_windows.go eventlog.go service.go syscall_windows.go security_windows.go
+//go:generate go run github.com/mjgrzybek/syswindows/mkwinsyscall -output zsyscall_windows.go eventlog.go service.go syscall_windows.go security_windows.go

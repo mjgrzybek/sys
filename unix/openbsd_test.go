@@ -19,7 +19,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"golang.org/x/sys/unix"
+	"github.com/mjgrzybek/sysunix"
 )
 
 type testProc struct {

@@ -5,7 +5,7 @@
 // +build windows
 // +build go1.9
 
-package windows
+package windows_mg
 
 import "syscall"
 

@@ -4,7 +4,7 @@
 
 // +build windows,!race
 
-package windows
+package windows_mg
 
 import (
 	"unsafe"

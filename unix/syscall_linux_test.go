@@ -21,7 +21,7 @@ import (
 	"time"
 	"unsafe"
 
-	"golang.org/x/sys/unix"
+	"github.com/mjgrzybek/sysunix"
 )
 
 func TestIoctlGetInt(t *testing.T) {

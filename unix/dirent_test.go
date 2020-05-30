@@ -19,7 +19,7 @@ import (
 	"testing"
 	"unsafe"
 
-	"golang.org/x/sys/unix"
+	"github.com/mjgrzybek/sysunix"
 )
 
 func TestDirent(t *testing.T) {

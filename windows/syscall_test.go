@@ -4,14 +4,14 @@
 
 // +build windows
 
-package windows_test
+package windows_mg_test
 
 import (
 	"strings"
 	"syscall"
 	"testing"
 
-	"golang.org/x/sys/windows"
+	"github.com/mjgrzybek/syswindows"
 )
 
 func testSetGetenv(t *testing.T, key, value string) {

@@ -4,7 +4,7 @@
 
 // +build windows
 
-// Package windows contains an interface to the low-level operating system
+// package windows_mg contains an interface to the low-level operating system
 // primitives. OS details vary depending on the underlying system, and
 // by default, godoc will display the OS-specific documentation for the current
 // system. If you want godoc to display syscall documentation for another
@@ -22,7 +22,7 @@
 // These calls return err == nil to indicate success; otherwise
 // err represents an operating system error describing the failure and
 // holds a value of type syscall.Errno.
-package windows // import "golang.org/x/sys/windows"
+package windows_mg // import "github.com/mjgrzybek/syswindows"
 
 import (
 	"syscall"

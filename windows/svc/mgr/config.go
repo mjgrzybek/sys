@@ -10,7 +10,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"golang.org/x/sys/windows"
+	"github.com/mjgrzybek/syswindows"
 )
 
 const (

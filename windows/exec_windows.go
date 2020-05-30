@@ -4,7 +4,7 @@
 
 // Fork, exec, wait, etc.
 
-package windows
+package windows_mg
 
 // EscapeArg rewrites command line argument s as prescribed
 // in http://msdn.microsoft.com/en-us/library/ms880421.

@@ -4,7 +4,7 @@
 
 // Windows environment variables.
 
-package windows
+package windows_mg
 
 import (
 	"syscall"

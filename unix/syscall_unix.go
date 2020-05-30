@@ -13,7 +13,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"golang.org/x/sys/internal/unsafeheader"
+	"github.com/mjgrzybek/sysinternal/unsafeheader"
 )
 
 var (

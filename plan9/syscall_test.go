@@ -9,7 +9,7 @@ package plan9_test
 import (
 	"testing"
 
-	"golang.org/x/sys/plan9"
+	"github.com/mjgrzybek/sysplan9"
 )
 
 func testSetGetenv(t *testing.T, key, value string) {

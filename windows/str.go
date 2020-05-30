@@ -4,7 +4,7 @@
 
 // +build windows
 
-package windows
+package windows_mg
 
 func itoa(val int) string { // do it here rather than with fmt to avoid dependency
 	if val < 0 {

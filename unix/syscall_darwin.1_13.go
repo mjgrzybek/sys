@@ -9,7 +9,7 @@ package unix
 import (
 	"unsafe"
 
-	"golang.org/x/sys/internal/unsafeheader"
+	"github.com/mjgrzybek/sysinternal/unsafeheader"
 )
 
 //sys	closedir(dir uintptr) (err error)

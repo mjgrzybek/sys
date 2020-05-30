@@ -15,7 +15,7 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/sys/windows/svc/mgr"
+	"github.com/mjgrzybek/syswindows/svc/mgr"
 )
 
 func TestOpenLanManServer(t *testing.T) {
