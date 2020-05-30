@@ -303,13 +303,11 @@ func (r *Rets) SetReturnValuesCode() string {
 }
 
 func (r *Rets) useLongHandleErrorCode(retvar string) string {
-	const code = `if %s {
-		if e1 != 0 {
+	const code = `if e1 != 0 {
 			err = errnoErr(e1)
-		} else {
+		} else if %s {
 			err = %sEINVAL
-		}
-	}`
+		}`
 	cond := retvar + " == 0"
 	if r.FailCond != "" {
 		cond = strings.Replace(r.FailCond, "failretval", retvar, 1)
@@ -319,9 +317,7 @@ func (r *Rets) useLongHandleErrorCode(retvar string) string {
 
 // SetErrorCode returns source code that sets return parameters.
 func (r *Rets) SetErrorCode() string {
-	const code = `if r0 != 0 {
-		%s = %sErrno(r0)
-	}`
+	const code = `%s = %sErrno(r0)`
 	if r.Name == "" && !r.ReturnsError {
 		return ""
 	}
